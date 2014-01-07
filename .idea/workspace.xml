@@ -50,7 +50,25 @@
       <file leaf-file-name="users_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="8" selection-start="356" selection-end="356" vertical-scroll-proportion="0.5500849" vertical-offset="0" max-vertical-offset="846">
+            <state line="18" column="23" selection-start="390" selection-end="390" vertical-scroll-proportion="-0.16129032" vertical-offset="419" max-vertical-offset="1008">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="authentication_pages_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/requests/authentication_pages_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="60" column="0" selection-start="1596" selection-end="1596" vertical-scroll-proportion="0.0" vertical-offset="936" max-vertical-offset="1512">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sessions_helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="16" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
               <folding />
             </state>
           </provider>
@@ -60,24 +78,6 @@
         <entry file="file://$PROJECT_DIR$/app/views/users/edit.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="14" column="32" selection-start="356" selection-end="356" vertical-scroll-proportion="-8.814815" vertical-offset="14" max-vertical-offset="576">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_pages_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/requests/user_pages_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="41" selection-start="2229" selection-end="2229" vertical-scroll-proportion="0.0" vertical-offset="1368" max-vertical-offset="1998">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_header.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="20" selection-start="597" selection-end="597" vertical-scroll-proportion="-5.0" vertical-offset="99" max-vertical-offset="648">
               <folding />
             </state>
           </provider>
@@ -115,16 +115,16 @@
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
-        <option value="$PROJECT_DIR$/app/helpers/sessions_helper.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/features/signing_in.feature" />
         <option value="$PROJECT_DIR$/features/step_definitions/step_defenitions.rb" />
         <option value="$PROJECT_DIR$/app/views/sessions/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/users/edit.html.erb" />
-        <option value="$PROJECT_DIR$/spec/requests/authentication_pages_spec.rb" />
         <option value="$PROJECT_DIR$/spec/support/utilities.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
         <option value="$PROJECT_DIR$/spec/requests/user_pages_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/requests/authentication_pages_spec.rb" />
+        <option value="$PROJECT_DIR$/app/helpers/sessions_helper.rb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
       </list>
     </option>
@@ -252,6 +252,7 @@
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="FullScreen" value="false" />
     <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RunManager" selected="Rails.Development: sample_app">
     <configuration default="false" name="db:migrate: sample_app" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
@@ -791,13 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="27" selection-start="713" selection-end="713" vertical-scroll-proportion="0.7249575" vertical-offset="41" max-vertical-offset="630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="25" selection-start="528" selection-end="528" vertical-scroll-proportion="0.44189852" vertical-offset="0" max-vertical-offset="611">
@@ -815,13 +809,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/users/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="32" selection-start="356" selection-end="356" vertical-scroll-proportion="-8.814815" vertical-offset="14" max-vertical-offset="576">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/authentication_pages_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="756" selection-end="756" vertical-scroll-proportion="0.0" vertical-offset="257" max-vertical-offset="846">
           <folding />
         </state>
       </provider>
@@ -847,9 +834,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spec/requests/authentication_pages_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="0" selection-start="1596" selection-end="1596" vertical-scroll-proportion="0.0" vertical-offset="936" max-vertical-offset="1512">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="16" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="8" selection-start="356" selection-end="356" vertical-scroll-proportion="0.5500849" vertical-offset="0" max-vertical-offset="846">
+        <state line="18" column="23" selection-start="390" selection-end="390" vertical-scroll-proportion="-0.16129032" vertical-offset="419" max-vertical-offset="1008">
           <folding />
         </state>
       </provider>
