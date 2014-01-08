@@ -1,6 +1,9 @@
 SampleApp::Application.routes.draw do
+  get "micropost/create"
+  get "micropost/destroy"
   resources :users
-  resources :sessions, only: [:new, :create, :destroy]
+  resources :sessions,   only: [:new, :create, :destroy]
+  resources :microposts, only: [:create, :destroy]
   root  'static_pages#home'
 
   match '/signup',  to: 'users#new',            via: 'get'
