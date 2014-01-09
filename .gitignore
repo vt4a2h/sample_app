@@ -16,4 +16,6 @@
 /tmp
 /.secret
 /.idea
+.idea
+idea
 bundler_stubs
